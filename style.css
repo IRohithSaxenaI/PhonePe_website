@@ -8,7 +8,7 @@ body{
   }
  .lefttext h1{
     font-family: "Montserrat";
-    font-weight: 00;
+    font-weight: 800;
     font-style: Bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -38,14 +38,18 @@ body{
 button{
     margin: 1% 2% 3%;
 }
-.rightimg{
-    width: 0%;
-    transform: rotate(20deg);
-    right: 20%;
-    position: absolute;
+.rightimg {
+    width: 350px;
+    transform: rotate(16deg);
+    align-items: center;
 }
 .Whitepart{
     padding: 1% 10% 1%;
+}
+.dis{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .card{
     margin: 20px;
@@ -67,8 +71,7 @@ button{
 }
 .obama{
     width:100px;
-    border-radius:50%;
-    
+    border-radius:50%; 
     margin: 25px;
 }
 .obamaa{
